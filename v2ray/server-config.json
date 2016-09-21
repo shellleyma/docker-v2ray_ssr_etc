@@ -5,14 +5,14 @@
     "loglevel": "warning"
   },
   "inbound": {
-    "port": 8899,
+    "port": 9090,
     "protocol": "vmess",
     "settings": {
       "clients": [
         {
-          "id": "3b129dec-72a3-4d28-aeee-028a0fe86e22",
+          "id": "38444af0-7fd3-11e6-9e6c-f4a981b4d8b2",
           "level": 1,
-          "alterId": 45678
+          "alterId": 4523
         }
       ],
       "detour": {
