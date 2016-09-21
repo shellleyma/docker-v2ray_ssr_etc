@@ -3,7 +3,7 @@
 #
 
 FROM ubuntu:16.04
-MAINTAINER Arthur Liang <arthurnreply@outlook.com>
+MAINTAINER Sheldon<nonexist@nonexist.com>
 
 RUN apt-get update &&DEBIAN_FRONTEND=noninteractive apt-get install -y \
         curl \
@@ -18,6 +18,6 @@ COPY user-config.json /etc/v2ray/user-config.json
 COPY supervisord.conf /etc/supervisor/
 COPY services.conf /etc/supervisor/conf.d/
 
-EXPOSE 8899
+EXPOSE 9090
 
 ENTRYPOINT ["/init.sh", "/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/supervisord.conf"]
