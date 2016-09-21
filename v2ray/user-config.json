@@ -1,6 +1,6 @@
 {
   "inbound": {
-    "port": 1081,
+    "port": 9099,
     "protocol": "socks",
     "settings": {
       "auth": "noauth",
@@ -13,21 +13,21 @@
       "vnext": [
         {
           "address": "1.1.1.1",
-          "port": 8899,
+          "port": 9090,
           "users": [
             {
-              "id": "3b129dec-72a3-4d28-aeee-028a0fe86e22",
-              "alterId": 45678
+              "id": "38444af0-7fd3-11e6-9e6c-f4a981b4d8b2",
+              "alterId": 4523
             }
           ]
         },
         {
           "address": "2.2.2.2",
-          "port": 8899,
+          "port": 9090,
           "users": [
             {
-              "id": "3b129dec-72a3-4d28-aeee-028a0fe86e22",
-              "alterId": 45678
+              "id": "38444af0-7fd3-11e6-9e6c-f4a981b4d8b2",
+              "alterId": 4523
             }
           ]
         }
